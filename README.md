@@ -18,29 +18,72 @@ Esta es una aplicación frontend que muestra el clima de 10 ciudades del Imperio
 - HTML5 semántico
 - CSS3 (degradados, transiciones)
 - Bootstrap 5.3.8
-- JavaScript Vanilla
+- JavaScript 
 - Bootstrap Icons
 
-## 📁 Estructura del proyecto
+## 🎓 **ESTRUCTURA COMPLETA DEL PROYECTO:**
 ```
-weather-frontend-m2/
-├── index.html          # Página principal con listado de ciudades
-├── detalle.html        # Página de detalle de ciudad
-├── assets/
-│   ├── css/
-│   │   └── styles.css  # Estilos personalizados
-│   └── js/
-│       └── script.js   # Interacciones JavaScript
-├── README.md           # Este archivo
-└── .gitignore         # Archivos ignorados por Git
-```
+📄 index.html
+├── <nav>           → Navegación principal
+├── <main>          → Contenido principal
+│   ├── <header>    → Título de la página
+│   └── <section>   → Grilla de ciudades
+│       └── <article> (×10) → Cada tarjeta
+└── <footer>        → Pie de página
+    └── <nav>       → Enlaces del footer
+
+📄 detalle.html
+├── <nav>           → Navegación principal
+├── <main>          → Contenido principal
+│   └── <section>   → Detalle completo
+│       ├── <article> → Info de la ciudad
+│       │   └── <header> → Título "El tiempo en:"
+│       └── <aside>   → Pronóstico semanal
+│           └── <header> → Título "Pronóstico"
+└── <footer>        → Pie de página
+    └── <nav>       → Enlaces del footer
 
 ## 🚀 Cómo usar
 
-1. Clonar el repositorio
-2. Abrir `index.html` en un navegador
-3. Navegar entre las diferentes ciudades
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/Nyliram1906/weather-frontend-m2.git
+   ```
+
+2. **Navegar a la carpeta del proyecto:**
+   ```bash
+   cd weather-frontend-m2
+   ```
+
+3. **Abrir el proyecto:**
+   - Opción 1: Abrir `index.html` directamente en tu navegador
+   - Opción 2: Usar Live Server en VS Code
+   - Opción 3: Usar cualquier servidor local
+
+
+**Repositorio público en GitHub:**  
+[https://github.com/Nyliram1906/weather-frontend-m2](https://github.com/Nyliram1906/weather-frontend-m2)
+
+
+### Objetivos de aprendizaje cumplidos:
+✅ Estructurar páginas con HTML5 semántico  
+✅ Aplicar Bootstrap para diseño responsivo (mobile-first)  
+✅ Manipular el DOM con JavaScript básico  
+✅ Gestionar el proyecto con Git/GitHub  
+✅ Crear documentación clara con README  
+
+### Requisitos técnicos implementados:
+- ✅ HTML5 semántico (nav, header, main, section, article, aside, footer)
+- ✅ Bootstrap 5.3.8 (grid system, componentes, utilidades)
+- ✅ Diseño responsive para móvil (≤420px) y escritorio (≥1024px)
+- ✅ 10+ localidades con información de clima
+- ✅ Navegación funcional entre Home y Detalle
+- ✅ JavaScript para interactividad y manipulación del DOM
+- ✅ Control de versiones con Git
+- ✅ Repositorio público en GitHub
+
 
 ## 👩‍💻 Autor
 
 **Marilyn Villalobos**
+
